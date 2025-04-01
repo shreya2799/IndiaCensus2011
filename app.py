@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(layout='wide')
 st.sidebar.title("India's Data Visualisation")
 
-df=pd.read_csv('india.csv')
+df=pd.read_csv('india_alldata.csv')
 list_of_states=list(df['State'].unique())
 list_of_states.insert(0,'Overall India')
 
